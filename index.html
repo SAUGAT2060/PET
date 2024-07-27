@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pet Adoption Center</h1>
+        <nav>
+            <ul>
+                <li><a href="#available-pets">Available Pets</a></li>
+                <li><a href="#success-stories">Success Stories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="available-pets" class="section">
+            <h2>Available Pets</h2>
+            <div class="pet-grid">
+                <div class="pet-item">
+                    <img src="labrodar.jpg" alt="Dog 1">
+                    <h3>Buddy</h3>
+                    <p>2 years old, Labrador Retriever</p>
+                </div>
+                <div class="pet-item">
+                    <img src="domestic.jpg" alt="Cat 1">
+                    <h3>Mittens</h3>
+                    <p>1 year old, Domestic Shorthair</p>
+                </div>
+                <div class="pet-item">
+                    <img src="german.jpg" alt="Dog 2">
+                    <h3>Max</h3>
+                    <p>3 years old, German Shepherd</p>
+                </div>
+                <div class="pet-item">
+                    <img src="wesker.jpg" alt="Cat 2">
+                    <h3>Whiskers</h3>
+                    <p>6 months old, Siamese</p>
+                </div>
+            </div>
+        </section>
+        <section id="success-stories" class="section">
+            <h2>Success Stories</h2>
+            <div class="story-grid">
+                <div class="story-item">
+                    <img src="rex.jpg" alt="Success Story 1">
+                    <h3>Rex</h3>
+                    <p>Rex found a loving home and enjoys long walks in the park.</p>
+                </div>
+                <div class="story-item">
+                    <img src="bella.webp" alt="Success Story 2">
+                    <h3>Bella</h3>
+                    <p>Bella loves her new family and spends her days playing and cuddling.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pet Adoption Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>
